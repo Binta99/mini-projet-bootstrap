@@ -1,0 +1,27 @@
+/* :root {
+  scroll-padding-top: 50px;
+  scroll-behavior: smooth;
+} */
+
+nav a img {
+  width: 100px;
+  height: 100px;
+}
+
+.carousel-item img {
+  height: 750px;
+}
+
+.caroussel-wrapper .img-col img {
+  height: 500px;
+}
+
+/* -------produits-wrapper--------- */
+.produits-wrapper .card img {
+  height: 400px;
+}
+
+.buton button {
+  margin: auto;
+  text-align: center;
+}
