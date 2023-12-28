@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    <!-- --------connection -->
+    <!-- --------connection---------------- -->
     <section class="connexion">
       <div class="container-fluid border bg-danger-subtle">
         <nav class="navbar mb-1 py-3">
@@ -98,7 +98,7 @@
                   >ABOUT</a
                 >
               </div>
-              <div class="navbar-nav text-black">
+              <div class="navbar-nav text-black text-end">
                 <a class="nav-link text-black fw-bold fs-5" href="#"
                   ><p>
                     <i
@@ -121,14 +121,106 @@
     <!-- (---------------marquee---------) -->
 
     <section class="marquee mt-5">
-      <div class="container bg-light">
+      <div class="container-fluid bg-danger-subtle">
         <marquee behavior="alternate" direction="" class="align-items-center">
           <p class="fs-1">
             Chez
-            <span class="fst-italic bg-danger-subtle">BineStore</span> Restez
-            Classe Dans La Pudeur
+            <span class="fst-italic">BineStore</span> Restez Classe Dans La
+            Pudeur
           </p></marquee
         >
+      </div>
+    </section>
+
+    <!-- form-inscription --------------------->
+    <section class="form-wrapper my-5 py-5">
+      <div class="container">
+        <div class="row justify-content-center py-5">
+          <h2 class="text-center mb-5">Inscrivez-vous</h2>
+          <div class="col-sm-6 col-lg-5 bg-danger-subtle p-5">
+            <form>
+              <div class="row">
+                <div class="Col-sm-12 col-lg-6">
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label"
+                      >First Name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                    />
+                  </div>
+                </div>
+                <div class="Col-sm-12 col-lg-6">
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label"
+                      >Last Name</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="exampleInputPassword1"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Username</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out
+                </label>
+              </div>
+              <p class="mb-3 text-end">
+                Avez-vous déjà un compte?
+                <a href="connexion.html" class="text-end text-decoration-none"
+                  >Connexion</a
+                >
+              </p>
+
+              <div class="centre text-center">
+                <button type="submit " class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -137,10 +229,8 @@
     <section class="footer-wrapper bg-danger-subtle">
       <div class="container py-5">
         <div class="row align-items-center">
-          <div class="col-sm-6 col-lg-3">
-            <p class="pb-4">N'gor Gendarmerie, N'gor, Dakar SENEGAL</p>
+          <div class="col-sm-6 col-lg-4">
             <p class="m-0">bintaceldia99@gmail.com</p>
-            <p class="mb-4">Service Client: (+221) 77 567 83 67</p>
             <p>
               <i class="bi bi-facebook ps-4"></i>
               <i class="bi bi-messenger ps-4"></i>
@@ -148,29 +238,12 @@
               <i class="bi bi-instagram ps-4"></i>
             </p>
           </div>
-          <div class="col-sm-6 col-lg-2">
-            <h4 class="mb-5">BineStore</h4>
-            <a class="nav-link mb-4" href="#">Boutique</a>
-            <a class="nav-link mb-4" href="#">A propos</a>
-            <a class="nav-link mb-4" href="#">Contact</a>
-            <a class="nav-link mb-4" href="#">Accueil</a>
+          <div class="col-sm-6 col-lg-4">
+            <p class="">N'gor Gendarmerie, Dakar SENEGAL</p>
+            <p class="mb-4">Service Client: (+221) 77 567 83 67</p>
           </div>
-          <div class="col-sm-6 col-lg-2">
-            <h4 class="mb-5">BOUTIQUE</h4>
-            <a class="nav-link mb-4" href="#accessoire">Accessoires</a>
-            <a class="nav-link mb-4" href="#abaya">Jilbab</a>
-            <a class="nav-link mb-4" href="#voile">Voile</a>
-            <a class="nav-link mb-4" href="#">Shop All</a>
-          </div>
-          <div class="col-sm-6 col-lg-2">
-            <h4 class="mb-5">AIDE</h4>
-            <a class="nav-link mb-4" href="#moncompte">Mon compte</a>
-            <a class="nav-link mb-4" href="#">Panier</a>
-            <a class="nav-link mb-4" href="#">Paiement</a>
-            <a class="nav-link mb-4" href="#">Suivi de commande</a>
-          </div>
-          <div class="col-sm-6 col-lg-3">
-            <h4 class="mb-5">ABONNEZ-VOUS</h4>
+
+          <div class="col-sm-6 col-lg-4">
             <p>
               Soyez le premier à recevoir les dernières nouvelles sur les
               tendances, promotions, et bien plus encore!
