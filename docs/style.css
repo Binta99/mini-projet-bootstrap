@@ -3,6 +3,12 @@
   scroll-behavior: smooth;
 } */
 
+* {
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+/* -------------- */
+
 nav a img {
   width: 100px;
   height: 100px;
@@ -10,6 +16,7 @@ nav a img {
 
 .carousel-item img {
   height: 750px;
+  object-fit: contain;
 }
 
 .caroussel-wrapper .img-col img {
